@@ -4,9 +4,9 @@
     <facet type="kotlin-language" name="Kotlin">
       <configuration version="3" platform="Native " useProjectSettings="false" isTestModule="true" externalProjectId="pert-kotlin">
         <sourceSets>
-          <sourceSet>com.example.pert-kotlin.iosMain</sourceSet>
           <sourceSet>com.example.pert-kotlin.commonTest</sourceSet>
           <sourceSet>com.example.pert-kotlin.commonMain</sourceSet>
+          <sourceSet>com.example.pert-kotlin.iosMain</sourceSet>
         </sourceSets>
         <newMppModelJpsModuleKind>COMPILATION_AND_SOURCE_SET_HOLDER</newMppModelJpsModuleKind>
         <compilerSettings />
