@@ -7,7 +7,7 @@ pluginManagement {
         }
     }
 }
-rootProject.name = 'pert-kotlin'
+rootProject.name = 'pert_kotlin'
 
 
 enableFeaturePreview('GRADLE_METADATA')
