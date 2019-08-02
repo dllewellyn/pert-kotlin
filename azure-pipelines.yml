@@ -16,6 +16,13 @@ steps:
     testResultsFiles: '**/TEST-*.xml'
     javaHomeOption: 'JDKVersion'
     sonarQubeRunAnalysis: false
+- task: Bash@3
+  inputs:
+    targetType: 'inline'
+    script: |
+      ls
+      ls build/
+      ls build/libs
 - task: PublishBuildArtifacts@1
   inputs:
     PathtoPublish: './build/libs/*.jar'
