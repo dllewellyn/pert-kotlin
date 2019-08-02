@@ -20,11 +20,9 @@ steps:
   inputs:
     targetType: 'inline'
     script: |
-      ls
-      ls build/
-      ls build/libs
+      ls build/ && ls build/libs
 - task: PublishBuildArtifacts@1
   inputs:
-    PathtoPublish: './build/libs/*.jar'
+    PathtoPublish: 'build/libs/*.jar'
     ArtifactName: 'jar'
     publishLocation: 'Container'
