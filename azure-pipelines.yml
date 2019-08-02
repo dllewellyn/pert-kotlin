@@ -18,6 +18,6 @@ steps:
     sonarQubeRunAnalysis: false
 - task: PublishBuildArtifacts@1
   inputs:
-    PathtoPublish: '$(Build.ArtifactStagingDirectory)/build/libs/*.jar'
+    PathtoPublish: './build/libs/*.jar'
     ArtifactName: 'jar'
     publishLocation: 'Container'
